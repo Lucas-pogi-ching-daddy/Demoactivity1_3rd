@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DRILL 1</title>
+
+  <style>
+    body {
+      margin: 40px;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 40px;
+      min-height: 100vh;
+      box-sizing: border-box;
+      background-color: #eaf3ff;
+      color: #0a2a66;
+    }
+
+    .box {
+      width: 500px;
+      height: 140px;
+      border: 3px solid #1e90ff;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      text-align: center;
+      border-radius: 10px;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      font-family: "Georgia", serif;
+      color: #003366;
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin: 25px 0 0 0;
+      font-family: "Courier New", monospace;
+      font-size: 17px;
+      color: #003f88;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <div class="title">Basic Calculator Display</div>
+  </div>
+
+<div style="background-color: lightblue; color: darkblue; border-radius: 20px ; border-top: solid 10px darkblue;  width: 300px; height: 200px; margin: 10px; text-align: center;">
+    <p>var a = 10 + 20 = 30</p>
+    <script>
+        var a = 10;
+        var b = 20;
+        var sum = a + b;
+    </script>
+
+    <p>var a = 10 - 20 = -10</p>
+    <script>
+        var a = 10;
+        var b = 20;
+        var sum = a - b;
+    </script>
+
+    <p>var a = 10 * 20 = 200</p>
+    <script>
+        var a = 10;
+        var b = 20;
+        var sum = a * b;
+    </script>
+
+    <p>var a = 10 / 20 = 2</p>
+    <script>
+        var a = 10;
+        var b = 20;
+        var sum = a / b;
+    </script>
+</div>
+
+  
+
+</body>
+</html>
